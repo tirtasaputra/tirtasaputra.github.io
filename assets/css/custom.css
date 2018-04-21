@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 43, 44);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.header{
+    font-family: 'Lobster', cursive;
+}
+
+.child{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
